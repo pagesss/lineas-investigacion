@@ -1,0 +1,379 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Francois One', sans-serif;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 10px;
+    background-color: #222831;
+}
+
+    .logo{
+        width: 80px;
+        height: auto;
+    }
+
+    .ListaDesordenada{
+        list-style: none;
+    }
+
+    .ListaOrdenada{
+        text-decoration: none;
+        display: inline-block;
+        padding: 0px 10px;
+        transition: 0.2s;
+    }
+
+    .ListaOrdenada:hover{
+        transition: 0.2s;
+    }
+
+        .CadaBoton{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-family: 'Francois One', sans-serif;
+            transition: 0.2;
+        }
+
+        .CadaBoton:hover{
+            color: #f8f398;
+            transition: 0.2s;
+        }
+
+
+.Principal{
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .PrincipalTexto{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .PaginaNormal{
+        background-color: red;
+    }
+
+
+     .ParteUno{
+         padding: 20px 20px;
+     }
+        
+            .TextoParteUno{
+                text-align: center;
+                font-size: 20px;
+                color: black;
+                padding-bottom:20px;
+            }
+        
+            .ArbolDeProblemas{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        
+            .Arbol{
+                width: auto;
+                height: 800px;
+            }
+
+.Creditos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 200px;
+}
+
+    .silueta{
+        height: 400px;
+        width: auto;
+    }
+
+    .TextoCreditos{
+        font-size: 30px;
+        text-align: center;
+    }
+
+footer{
+    padding-top: 15px;
+    background-color: #222831;
+}
+
+    .LogoFooter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 5px;
+    }
+
+    .TextoFooter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+        color: white;
+        padding-bottom: 15px;
+    }
+
+.TextoParteDos{
+    font-size: 20px;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.Barrera{
+    background-color: #a2a8d3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    font-size: 40px;
+    border-top: 2px black groove;
+}
+
+.Argumentacion{
+    height: 200px;
+    width: auto;
+}
+
+.ListaParticipantesDesordenada{
+    background-color: #222831;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    list-style: none;
+}
+
+.ListaParticipantesOrdenada{
+    font-size: 20px;
+    color: white;
+}
+
+.Todos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.Estudiantes{
+    text-align: center;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.Investigador{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.CoInvestigadores{
+    font-size: 20px;
+    position: static;
+    padding-left: 60px;
+    text-align: center;
+}
+
+.Idk{
+    background-color:#222831;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.BarreraDos{
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 40px;
+    padding: 20px;
+    border-bottom: black 2px groove;
+}
+
+.lineas{
+    height: 200px;
+    width: auto;
+}
+
+.ListaLinea{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.ListaUno{
+    font-size: 20px;
+}
+
+.ListaDos{
+    font-size: 20px;
+}
+
+.ParaQueSirve{
+    background-color:#222831;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.CaracteristicaUno{
+    background-color: #9cd3d3;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.orientacionyenfoque{
+    height: 200px;
+    width: auto;
+}
+
+.CaracteristicaDos{
+    background-color: #eef5b2;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.coherenciaycotinuidad{
+    height: 200px;
+    width: auto;
+}
+
+.NoPodria{
+    background-color:#222831;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.aspectos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.Podria{
+    font-size: 40px;
+    text-align: center;
+    background-color:#222831;
+    color: white;
+    padding: 20px 20px;
+}
+
+.podriauno{
+    background-color: #dde0ab;
+    padding: 20px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.podriados{
+    background-color: #ffe9e3;
+    padding: 20px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.podriatres{
+    background-color: #a6e4e7;
+    padding: 20px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.apoyos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+
+.udenar{
+    width: 200px;
+    height: auto;
+    padding-bottom: 20px ;
+    transition: 0.2s;
+}
+
+.udenar:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.primerapoyo{
+    font-size: 20px;
+    text-align: center;
+}
+
+.segundoapoyo{
+    font-size: 20px;
+    text-align: center;
+}
+
+.coes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.aulavirtual{
+    width: 200px;
+    height: auto;
+    padding-bottom: 20px;
+    transition: 0.2s;
+}
+
+.aulavirtual:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.textocoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
